@@ -1,0 +1,27 @@
+[
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\PacmanRemake\\\\Source\\\\PacmanRemake\\\\PacmanRemake.Build.cs",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\PacmanRemake\\.vscode\\compileCommands_Default\\PacmanRemake.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\PacmanRemake\\\\Source\\\\PacmanRemake\\\\PacmanRemake.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\PacmanRemake\\.vscode\\compileCommands_Default\\PacmanRemake.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\PacmanRemake\\\\Source\\\\PacmanRemake\\\\PacmanRemake.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\PacmanRemake\\.vscode\\compileCommands_Default\\PacmanRemake.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\PacmanRemake\\\\Source\\\\PacmanRemake\\\\PacmanRemakeGameModeBase.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\PacmanRemake\\.vscode\\compileCommands_Default\\PacmanRemake.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\PacmanRemake\\\\Source\\\\PacmanRemake\\\\PacmanRemakeGameModeBase.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\PacmanRemake\\.vscode\\compileCommands_Default\\PacmanRemake.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    }
+]
