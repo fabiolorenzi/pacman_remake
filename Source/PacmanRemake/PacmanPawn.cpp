@@ -53,7 +53,7 @@ void APacmanPawn::SetDirection(const FVector Direction)
 
 void APacmanPawn::OnOverlapBegin(AActor *PlayerActor, AActor *OtherActor)
 {
-	if (OtherActor->ActorHasTag("Foodie.Regular")) {
+	if (OtherActor->ActorHasTag("Foodie.Regular") || OtherActor->ActorHasTag("Foodie.PowerUp")) {
 		Cast<AFoodie>(OtherActor)->Consume();
 	};
 }
