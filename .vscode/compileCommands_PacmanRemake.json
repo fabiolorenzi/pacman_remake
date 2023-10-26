@@ -1,5 +1,15 @@
 [
     {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\PacmanRemake\\\\Source\\\\PacmanRemake\\\\PacmanPawn.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\PacmanRemake\\.vscode\\compileCommands_PacmanRemake\\PacmanRemake.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\PacmanRemake\\\\Source\\\\PacmanRemake\\\\PacmanPawn.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\PacmanRemake\\.vscode\\compileCommands_PacmanRemake\\PacmanRemake.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
         "file": "D:\\\\Epic Games\\\\Projects\\\\PacmanRemake\\\\Source\\\\PacmanRemake\\\\PacmanRemake.Build.cs",
         "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\PacmanRemake\\.vscode\\compileCommands_PacmanRemake\\PacmanRemake.182.rsp\"",
         "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
