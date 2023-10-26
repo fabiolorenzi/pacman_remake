@@ -25,7 +25,7 @@ void APacmanPawn::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	if (!Frozen) {
-		AddMovementInput(GetActorForwardVector());
+		AddMovementInput(GetActorForwardVector()); // this line is to move the pawn in the direction he is revolted
 	}
 }
 
