@@ -1,128 +1,123 @@
 {
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"name": "PacmanRemake (Debug)",
-			"request": "launch",
-			"preLaunchTask": "PacmanRemake Win64 Debug Build",
-			"program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4-Win64-Debug.exe",
-			"args": [
-			],
-			"cwd": "D:\\Epic Games\\UE_4.26",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "PacmanRemake (DebugGame)",
-			"request": "launch",
-			"preLaunchTask": "PacmanRemake Win64 DebugGame Build",
-			"program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
-			"args": [
-			],
-			"cwd": "D:\\Epic Games\\UE_4.26",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "PacmanRemake (Development)",
-			"request": "launch",
-			"preLaunchTask": "PacmanRemake Win64 Development Build",
-			"program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4.exe",
-			"args": [
-			],
-			"cwd": "D:\\Epic Games\\UE_4.26",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "PacmanRemake (Shipping)",
-			"request": "launch",
-			"preLaunchTask": "PacmanRemake Win64 Shipping Build",
-			"program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
-			"args": [
-			],
-			"cwd": "D:\\Epic Games\\UE_4.26",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "PacmanRemake (Test)",
-			"request": "launch",
-			"preLaunchTask": "PacmanRemake Win64 Test Build",
-			"program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4-Win64-Test.exe",
-			"args": [
-			],
-			"cwd": "D:\\Epic Games\\UE_4.26",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "PacmanRemakeEditor (Debug)",
-			"request": "launch",
-			"preLaunchTask": "PacmanRemakeEditor Win64 Debug Build",
-			"program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
-			"args": [
-				"D:\\Epic Games\\Projects\\PacmanRemake\\PacmanRemake.uproject"
-			],
-			"cwd": "D:\\Epic Games\\UE_4.26",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "PacmanRemakeEditor (DebugGame)",
-			"request": "launch",
-			"preLaunchTask": "PacmanRemakeEditor Win64 DebugGame Build",
-			"program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
-			"args": [
-				"D:\\Epic Games\\Projects\\PacmanRemake\\PacmanRemake.uproject"
-			],
-			"cwd": "D:\\Epic Games\\UE_4.26",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "PacmanRemakeEditor (Development)",
-			"request": "launch",
-			"preLaunchTask": "PacmanRemakeEditor Win64 Development Build",
-			"program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
-			"args": [
-				"D:\\Epic Games\\Projects\\PacmanRemake\\PacmanRemake.uproject"
-			],
-			"cwd": "D:\\Epic Games\\UE_4.26",
-			"stopAtEntry": false,
-			"externalConsole": true,
-			"type": "cppvsdbg",
-			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
-		},
-		{
-			"name": "Generate Project Files",
-			"type": "clr",
-			"request": "launch",
-			"program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
-			"console": "externalTerminal",
-			"args": [
-				"-projectfiles",
-				"-vscode",
-				"-project=D:\\Epic Games\\Projects\\PacmanRemake\\PacmanRemake.uproject",
-				"-game",
-				"-engine"
-			],
-			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "D:\\Epic Games\\UE_4.26"
-		}
-	]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PacmanRemake (Debug)",
+            "request": "launch",
+            "preLaunchTask": "PacmanRemake Win64 Debug Build",
+            "program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "PacmanRemake (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "PacmanRemake Win64 DebugGame Build",
+            "program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "PacmanRemake (Development)",
+            "request": "launch",
+            "preLaunchTask": "PacmanRemake Win64 Development Build",
+            "program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "PacmanRemake (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "PacmanRemake Win64 Shipping Build",
+            "program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "PacmanRemake (Test)",
+            "request": "launch",
+            "preLaunchTask": "PacmanRemake Win64 Test Build",
+            "program": "D:\\Epic Games\\Projects\\PacmanRemake\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "PacmanRemakeEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "PacmanRemakeEditor Win64 Debug Build",
+            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "D:\\Epic Games\\Projects\\PacmanRemake\\PacmanRemake.uproject"
+            ],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "PacmanRemakeEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "PacmanRemakeEditor Win64 DebugGame Build",
+            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "D:\\Epic Games\\Projects\\PacmanRemake\\PacmanRemake.uproject"
+            ],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "PacmanRemakeEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "PacmanRemakeEditor Win64 Development Build",
+            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "D:\\Epic Games\\Projects\\PacmanRemake\\PacmanRemake.uproject"
+            ],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=D:\\Epic Games\\Projects\\PacmanRemake\\PacmanRemake.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "D:\\Epic Games\\UE_4.26"
+        }
+    ]
 }
